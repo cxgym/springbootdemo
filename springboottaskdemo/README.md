@@ -1,0 +1,1 @@
+把设置里面的 Editor->Inspections->Thymeleaf->Expression variables validation后面的勾去掉

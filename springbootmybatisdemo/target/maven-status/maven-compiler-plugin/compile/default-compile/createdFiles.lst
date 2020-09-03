@@ -1,0 +1,4 @@
+com\wondersgroup\springbootmybatisdemo\dict\service\ProductCategoryService.class
+com\wondersgroup\springbootmybatisdemo\dict\entity\ProductCategory.class
+com\wondersgroup\springbootmybatisdemo\dict\dao\ProductCategoryDao.class
+com\wondersgroup\springbootmybatisdemo\SpringbootmybatisdemoApplication.class

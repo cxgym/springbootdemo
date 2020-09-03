@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--通过自定义的sec获取springsecurity的信息-->
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8" content="text/html" http-equiv="content-type">
+    <title>首页</title>
+</head>
+<body>
+    <h1 align="center">欢迎光临武林秘籍管理系统</h1>
+
+    <!--用户未认证显示-->
+    <div sec:authorize="!isAuthenticated()">
+        <!--@{/login}表示使用security框架自带的登录页面，也可以自定义登录页面的-->
+        <!--<h2 align="center">游客您好，如果想查看武林秘籍<a th:href="@{/login}">请登录</a></h2>-->
+        <!--使用自定义登录页面-->
+        <h2 align="center">游客您好，如果想查看武林秘籍<a th:href="@{/userlogin}">请登录</a></h2>
+    </div>
+
+   <!--用户认证后显示-->
+    <div sec:authorize="isAuthenticated()">
+        <h2 align="right">您好：
+            <span sec:authentication="name"></span>
+            您拥有的角色：
+            <span sec:authentication="principal.authorities"></span>
+        </h2>
+        <form th:action="@{/logout}" method="post" align="right">
+            <input type="submit" value="注销"/>
+        </form>
+    </div>
+
+    <hr>
+
+    <div sec:authorize="hasRole('VIP1')">
+        <h3>普通武功秘籍</h3>
+        <ul>
+            <li><a th:href="@{/level1/1}">普通武功秘籍1</a></li>
+            <li><a th:href="@{/level1/2}">普通武功秘籍2</a></li>
+            <li><a th:href="@{/level1/3}">普通武功秘籍3</a></li>
+        </ul>
+    </div>
+
+    <div sec:authorize="hasRole('VIP2')">
+        <h3>高级武功秘籍</h3>
+        <ul>
+            <li><a th:href="@{/level2/1}">高级武功秘籍1</a></li>
+            <li><a th:href="@{/level2/2}">高级武功秘籍2</a></li>
+            <li><a th:href="@{/level2/3}">高级武功秘籍3</a></li>
+        </ul>
+    </div>
+
+    <div sec:authorize="hasRole('VIP3')">
+        <h3>绝世武功秘籍</h3>
+        <ul>
+            <li><a th:href="@{/level3/1}">绝世武功秘籍1</a></li>
+            <li><a th:href="@{/level3/2}">绝世武功秘籍2</a></li>
+            <li><a th:href="@{/level3/3}">绝世武功秘籍3</a></li>
+        </ul>
+    </div>
+</body>
+</html>

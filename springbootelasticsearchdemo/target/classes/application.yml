@@ -1,0 +1,8 @@
+spring:
+  data:
+    elasticsearch:
+      cluster-name: docker-cluster
+      cluster-nodes: 192.168.205.150:9300
+  elasticsearch:
+    rest:
+      uris: ["192.168.205.150:9200"]      # 修改es健康检查地址，否则报错Timeout connecting to [localhost/127.0.0.1:9200];

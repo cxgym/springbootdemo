@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springbootamqpdemo/springbootamqpdemo.iml" filepath="$PROJECT_DIR$/springbootamqpdemo/springbootamqpdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootcachedemo/springbootcachedemo.iml" filepath="$PROJECT_DIR$/springbootcachedemo/springbootcachedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootconfigdemo/springbootconfigdemo.iml" filepath="$PROJECT_DIR$/springbootconfigdemo/springbootconfigdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootdemo.iml" filepath="$PROJECT_DIR$/springbootdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootdruiddemo/springbootdruiddemo.iml" filepath="$PROJECT_DIR$/springbootdruiddemo/springbootdruiddemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootelasticsearchdemo/springbootelasticsearchdemo.iml" filepath="$PROJECT_DIR$/springbootelasticsearchdemo/springbootelasticsearchdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootjdbcdemo/springbootjdbcdemo.iml" filepath="$PROJECT_DIR$/springbootjdbcdemo/springbootjdbcdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootjpademo/springbootjpademo.iml" filepath="$PROJECT_DIR$/springbootjpademo/springbootjpademo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootlogdemo/springbootlogdemo.iml" filepath="$PROJECT_DIR$/springbootlogdemo/springbootlogdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootmybatisdemo/springbootmybatisdemo.iml" filepath="$PROJECT_DIR$/springbootmybatisdemo/springbootmybatisdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootredisdemo/springbootredisdemo.iml" filepath="$PROJECT_DIR$/springbootredisdemo/springbootredisdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootsecuritydemo/springbootsecuritydemo.iml" filepath="$PROJECT_DIR$/springbootsecuritydemo/springbootsecuritydemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboottaskdemo/springboottaskdemo.iml" filepath="$PROJECT_DIR$/springboottaskdemo/springboottaskdemo.iml" />
+    </modules>
+  </component>
+</project>

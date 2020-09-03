@@ -1,0 +1,14 @@
+spring:
+  mail:
+    username: 2297227301@qq.com
+    password: cgweesddddcdifk    #这里记住改成自己的，可以在qq邮箱设置中查看，这个我防止密码泄露故意打乱了
+    host: smtp.qq.com
+
+  thymeleaf:
+    cache: false
+    mode: HTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    prefix: classpath:/templates
+    suffix: .html

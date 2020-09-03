@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.205.150/sell    #drop database if exists sell;
+                                              #create database sell default character set utf8 collate utf8_general_ci;
+                                              #use sell;
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+    #schema:
+    #  - classpath:static/sell.sql   #配置了建表sql后程序启动时会自动执行sql语句
+    #initialization-mode: always     #schema必须配合initialization-mode配置才能生效

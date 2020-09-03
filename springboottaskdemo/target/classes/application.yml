@@ -1,0 +1,14 @@
+spring:
+  mail:
+    username: 2297227301@qq.com
+    password: chojggvgrhdcdigi
+    host: smtp.qq.com
+
+  thymeleaf:
+    cache: false
+    mode: HTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    prefix: classpath:/templates
+    suffix: .html

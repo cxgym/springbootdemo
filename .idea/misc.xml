@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootamqpdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootcachedemo/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootconfigdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootelasticsearchdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootlogdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootredisdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootsecuritydemo/pom.xml" />
+        <option value="$PROJECT_DIR$/springboottaskdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootjpademo/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootmybatisdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootjdbcdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootdruiddemo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

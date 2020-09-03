@@ -1,0 +1,3 @@
+com\wondersgroup\springbootamqpdemo\SpringbootamqpdemoApplication.class
+com\wondersgroup\springbootamqpdemo\service\BookService.class
+com\wondersgroup\springbootamqpdemo\model\Book.class

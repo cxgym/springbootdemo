@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.3.3.RELEASE</version>
+    </parent>
+
+    <groupId>com.wondersgroup</groupId>
+    <artifactId>springbootdemo</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <description>Demo project for Spring Boot Demo</description>
+
+    <packaging>pom</packaging>
+
+    <!--maven的项目别名，注意看idea右边maven菜单名字-->
+    <name>springbootdemo</name>
+
+    <modules>
+        <module>springbootamqpdemo</module>
+        <module>springbootcachedemo</module>
+        <module>springbootconfigdemo</module>
+        <module>springbootelasticsearchdemo</module>
+        <module>springbootlogdemo</module>
+        <module>springbootredisdemo</module>
+        <module>springbootsecuritydemo</module>
+        <module>springboottaskdemo</module>
+        <module>springbootjpademo</module>
+        <module>springbootmybatisdemo</module>
+        <module>springbootjdbcdemo</module>
+        <module>springbootdruiddemo</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <!--dependency versions 这样配置的好处是在子项目中可以不用指定版本号，便于聚合工程的版本管理,需在父项目中配合dependencyManagement使用-->
+        <java.version>1.8</java.version>
+        <hibernate-validator.version>5.2.4.Final</hibernate-validator.version>
+        <spring-boot-starter-test.version>2.3.3.RELEASE</spring-boot-starter-test.version>
+        <spring-boot-starter.version>2.3.3.RELEASE</spring-boot-starter.version>
+        <spring-boot-starter-web.version>2.3.3.RELEASE</spring-boot-starter-web.version>
+        <spring-boot-maven-plugin.version>2.3.3.RELEASE</spring-boot-maven-plugin.version>
+        <spring-boot-configuration-processor.version>2.3.3.RELEASE</spring-boot-configuration-processor.version>
+        <spring-boot-starter-data-elasticsearch.version>2.3.3.RELEASE</spring-boot-starter-data-elasticsearch.version>
+        <mysql-connector-java.version>8.0.21</mysql-connector-java.version>
+        <spring-boot-starter-cache.version>2.3.3.RELEASE</spring-boot-starter-cache.version>
+    </properties>
+
+    <!-- <repositories>
+      <repository>
+          <id>wondersgroup-nexus-releases</id>
+          <url>http://10.1.64.111:8081/nexus/content/repositories/releases/</url>
+          <snapshots>
+              &lt;!&ndash;true或者false表示该仓库是否为下载某种类型构件（发布版，快照版）开启。 &ndash;&gt;
+              <enabled>false</enabled>
+          </snapshots>
+      </repository>
+      <repository>
+          <id>wondersgroup-nexus-snapshots</id>
+          <url>http://10.1.64.111:8081/nexus/content/repositories/snapshots/</url>
+          <snapshots>
+              <enabled>true</enabled>
+              &lt;!&ndash;该元素指定更新发生的频率。Maven会比较本地POM和远程POM的时间戳。
+              这里的选项是：always（一直），daily（默认，每日），interval：X（这里X是以分钟为单位的时间间隔），或者never（从不）。 &ndash;&gt;
+              <updatePolicy>always</updatePolicy>
+          </snapshots>
+      </repository>
+      <repository>
+          <id>wondersgroup-nexus-thirdparty</id>
+          <url>http://10.1.64.111:8081/nexus/content/repositories/thirdparty/</url>
+      </repository>
+  </repositories>-->
+
+    <!--父工程只是对依赖进行管理不需要注入的，所以用dependencyManagement管理这个标签，而不用dependencies注入标签-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter</artifactId>
+                <version>${spring-boot-starter.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <version>${spring-boot-starter-test.version}</version>
+                <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>${spring-boot-starter-web.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-configuration-processor</artifactId>
+                <version>${spring-boot-configuration-processor.version}</version>
+                <optional>true</optional>
+            </dependency>
+
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-validator</artifactId>
+                <version>${hibernate-validator.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+                <version>${spring-boot-starter-data-elasticsearch.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-cache</artifactId>
+                <version>${spring-boot-starter-cache.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql-connector-java.version}</version>
+                <scope>runtime</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <!--简化部署，不用再打war包，这个插件可以将应用打包成可执行的jar包-->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring-boot-maven-plugin.version}</version>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

@@ -1,0 +1,18 @@
+info:
+  app.name: application prod config
+  company.name: www.wondersgroup.com
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
+
+#initinfo:
+#  appName: application prod应用名称配置文件${random.uuid}
+#  appAge: ${random.int}
+#  onLine: true
+#  lineDate: 2020/08/21
+#  versionInfo:
+#    versionNumber: 1.0.0.0
+#    versionRemark: 版本号信息${initinfo.appName}
+#  listStar:
+#    - 成龙
+#    - 洪金宝
+#  mapMenu: {home: 首页,menu: 菜单}

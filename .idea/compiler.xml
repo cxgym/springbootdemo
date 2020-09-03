@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboottaskdemo" />
+        <module name="springbootdruiddemo" />
+        <module name="springbootlogdemo" />
+        <module name="springbootredisdemo" />
+        <module name="springbootjpademo" />
+        <module name="springbootmybatisdemo" />
+        <module name="springbootelasticsearchdemo" />
+        <module name="springbootjdbcdemo" />
+        <module name="springbootsecuritydemo" />
+        <module name="springbootamqpdemo" />
+        <module name="springbootcachedemo" />
+        <module name="springbootconfigdemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springbootamqpdemo" target="1.8" />
+      <module name="springbootcachedemo" target="1.8" />
+      <module name="springbootconfigdemo" target="1.8" />
+      <module name="springbootdemo" target="1.8" />
+      <module name="springbootdruiddemo" target="1.8" />
+      <module name="springbootelasticsearchdemo" target="1.8" />
+      <module name="springbootjdbcdemo" target="1.8" />
+      <module name="springbootjpademo" target="1.8" />
+      <module name="springbootlogdemo" target="1.8" />
+      <module name="springbootmybatisdemo" target="1.8" />
+      <module name="springbootredisdemo" target="1.8" />
+      <module name="springbootsecuritydemo" target="1.8" />
+      <module name="springboottaskdemo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springbootamqpdemo" options="-parameters" />
+      <module name="springbootcachedemo" options="-parameters" />
+      <module name="springbootconfigdemo" options="-parameters" />
+      <module name="springbootdemo" options="" />
+      <module name="springbootdruiddemo" options="-parameters" />
+      <module name="springbootelasticsearchdemo" options="-parameters" />
+      <module name="springbootjdbcdemo" options="-parameters" />
+      <module name="springbootjpademo" options="-parameters" />
+      <module name="springbootlogdemo" options="-parameters" />
+      <module name="springbootmybatisdemo" options="-parameters" />
+      <module name="springbootredisdemo" options="-parameters" />
+      <module name="springbootsecuritydemo" options="-parameters" />
+      <module name="springboottaskdemo" options="-parameters" />
+    </option>
+  </component>
+</project>
