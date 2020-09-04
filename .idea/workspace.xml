@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76591cc7-6fd5-4d8e-8461-d44760afb314" name="Default Changelist" comment="" />
+    <list default="true" id="76591cc7-6fd5-4d8e-8461-d44760afb314" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/springbooti18ndemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbooti18ndemo/springbooti18ndemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbooti18ndemo/src/main/java/com/wondersgroup/springbooti18ndemo/Springbooti18ndemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbooti18ndemo/src/main/java/com/wondersgroup/springbooti18ndemo/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbooti18ndemo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbooti18ndemo/src/main/resources/i18n/login.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbooti18ndemo/src/main/resources/i18n/login_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbooti18ndemo/src/main/resources/i18n/login_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbooti18ndemo/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbooti18ndemo/src/test/java/com/wondersgroup/springbooti18ndemo/Springbooti18ndemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +42,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,7 +64,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1grp0hQ62Xttloc1jH2jHrTcEDw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -55,8 +76,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/gitDownload/wondersgroup-healthcloud-chronic" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springbooti18ndemo/src/main/resources/templates" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -65,11 +86,11 @@
       <recent name="com.wondersgroup.springbootmybatisdemo.dict.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\springbootdemo\springbooti18ndemo\src\main\resources\templates" />
       <recent name="D:\springbootdemo\springbootmybatisdemo\src\main\resources\static" />
       <recent name="D:\springbootdemo\springbootmybatisdemo\src\main\resources\mapper\productcategory" />
       <recent name="D:\springbootdemo\springbootdruiddemo\src\main\resources" />
       <recent name="D:\springbootdemo\springbootdruiddemo\src\main\resources\static" />
-      <recent name="D:\springbootdemo\springbootjdbcdemo\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -84,13 +105,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpringbootmybatisdemoApplicationTests.contextLoads">
+  <component name="RunManager" selected="Application.Springbooti18ndemoApplication">
     <configuration name="SpringbootdruiddemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wondersgroup.springbootdruiddemo.SpringbootdruiddemoApplication" />
       <module name="springbootdruiddemo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.wondersgroup.springbootdruiddemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springbooti18ndemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wondersgroup.springbooti18ndemo.Springbooti18ndemoApplication" />
+      <module name="springbooti18ndemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wondersgroup.springbooti18ndemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,22 +159,6 @@
       <option name="PACKAGE_NAME" value="com.wondersgroup.springbootjdbcdemo" />
       <option name="MAIN_CLASS_NAME" value="com.wondersgroup.springbootjdbcdemo.SpringbootjdbcdemoApplicationTests" />
       <option name="METHOD_NAME" value="Test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringbootjdbcdemoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springbootjdbcdemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wondersgroup.springbootjdbcdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wondersgroup.springbootjdbcdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.wondersgroup.springbootjdbcdemo.SpringbootjdbcdemoApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -204,6 +222,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Springbooti18ndemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springbooti18ndemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wondersgroup.springbooti18ndemo.Springbooti18ndemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringbootjdbcdemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springbootjdbcdemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wondersgroup.springbootjdbcdemo.SpringbootjdbcdemoApplication" />
@@ -255,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Springbooti18ndemoApplication" />
         <item itemvalue="JUnit.SpringbootmybatisdemoApplicationTests.contextLoads" />
         <item itemvalue="JUnit.SpringbootdruiddemoApplicationTests.contextLoads" />
         <item itemvalue="Application.SpringbootdruiddemoApplication" />
         <item itemvalue="JUnit.SpringbootjdbcdemoApplicationTests.Test01" />
-        <item itemvalue="JUnit.SpringbootjdbcdemoApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -279,6 +304,7 @@
       <workItem from="1598953437570" duration="1095000" />
       <workItem from="1599118035537" duration="1528000" />
       <workItem from="1599125989250" duration="48000" />
+      <workItem from="1599185891441" duration="8336000" />
     </task>
     <servers />
   </component>
@@ -297,5 +323,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

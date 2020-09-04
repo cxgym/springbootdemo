@@ -8,17 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboottaskdemo" />
-        <module name="springbootdruiddemo" />
         <module name="springbootlogdemo" />
         <module name="springbootredisdemo" />
         <module name="springbootjpademo" />
-        <module name="springbootmybatisdemo" />
+        <module name="springbootdruiddemo" />
+        <module name="springbooti18ndemo" />
+        <module name="springbootconfigdemo" />
+        <module name="springbootamqpdemo" />
         <module name="springbootelasticsearchdemo" />
+        <module name="springbootcachedemo" />
+        <module name="springbootmybatisdemo" />
         <module name="springbootjdbcdemo" />
         <module name="springbootsecuritydemo" />
-        <module name="springbootamqpdemo" />
-        <module name="springbootcachedemo" />
-        <module name="springbootconfigdemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +29,7 @@
       <module name="springbootdemo" target="1.8" />
       <module name="springbootdruiddemo" target="1.8" />
       <module name="springbootelasticsearchdemo" target="1.8" />
+      <module name="springbooti18ndemo" target="1.8" />
       <module name="springbootjdbcdemo" target="1.8" />
       <module name="springbootjpademo" target="1.8" />
       <module name="springbootlogdemo" target="1.8" />
@@ -45,6 +47,7 @@
       <module name="springbootdemo" options="" />
       <module name="springbootdruiddemo" options="-parameters" />
       <module name="springbootelasticsearchdemo" options="-parameters" />
+      <module name="springbooti18ndemo" options="-parameters" />
       <module name="springbootjdbcdemo" options="-parameters" />
       <module name="springbootjpademo" options="-parameters" />
       <module name="springbootlogdemo" options="-parameters" />

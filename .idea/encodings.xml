@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootamqpdemo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootcachedemo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootconfigdemo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootdruiddemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springbootdruiddemo/src/main/resources/application.yml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/springbootelasticsearchdemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springbooti18ndemo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootjdbcdemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springbootjdbcdemo/src/main/resources/application.yml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/springbootjpademo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootlogdemo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootmybatisdemo" charset="UTF-8" />

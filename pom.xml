@@ -32,6 +32,7 @@
         <module>springbootmybatisdemo</module>
         <module>springbootjdbcdemo</module>
         <module>springbootdruiddemo</module>
+        <module>springbooti18ndemo</module>
     </modules>
 
     <properties>
