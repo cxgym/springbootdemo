@@ -1,8 +1,0 @@
-spring:
-  datasource:
-    username: root
-    password: 123456
-    url: jdbc:mysql://192.168.205.150:3306/sell?characterEncoding=utf-8&useSSL=false&serverTimeZone=UTC&useOldAliasMetadataBehavior=true
-mybatis:
-  configuration:
-    map-underscore-to-camel-case: true      #开启驼峰命名匹配规则，数据库和mybatis驼峰命名法自动转换

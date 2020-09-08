@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/springbootmybatisdemo/springbootmybatisdemo.iml" filepath="$PROJECT_DIR$/springbootmybatisdemo/springbootmybatisdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootredisdemo/springbootredisdemo.iml" filepath="$PROJECT_DIR$/springbootredisdemo/springbootredisdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootsecuritydemo/springbootsecuritydemo.iml" filepath="$PROJECT_DIR$/springbootsecuritydemo/springbootsecuritydemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootshirodemo/springbootshirodemo.iml" filepath="$PROJECT_DIR$/springbootshirodemo/springbootshirodemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboottaskdemo/springboottaskdemo.iml" filepath="$PROJECT_DIR$/springboottaskdemo/springboottaskdemo.iml" />
     </modules>
   </component>

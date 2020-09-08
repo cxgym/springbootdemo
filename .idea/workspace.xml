@@ -2,22 +2,269 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76591cc7-6fd5-4d8e-8461-d44760afb314" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springbooti18ndemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbooti18ndemo/springbooti18ndemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbooti18ndemo/src/main/java/com/wondersgroup/springbooti18ndemo/Springbooti18ndemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbooti18ndemo/src/main/java/com/wondersgroup/springbooti18ndemo/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbooti18ndemo/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbooti18ndemo/src/main/resources/i18n/login.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbooti18ndemo/src/main/resources/i18n/login_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbooti18ndemo/src/main/resources/i18n/login_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbooti18ndemo/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbooti18ndemo/src/test/java/com/wondersgroup/springbooti18ndemo/Springbooti18ndemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_theborakompanioni_thymeleaf_extras_shiro_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/springbootshirodemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/main/java/com/wondersgroup/springbootshirodemo/SpringbootshirodemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/main/java/com/wondersgroup/springbootshirodemo/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/main/java/com/wondersgroup/springbootshirodemo/model/Permissions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/main/java/com/wondersgroup/springbootshirodemo/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/main/java/com/wondersgroup/springbootshirodemo/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/main/java/com/wondersgroup/springbootshirodemo/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/main/java/com/wondersgroup/springbootshirodemo/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/main/java/com/wondersgroup/springbootshirodemo/shiro/CustomAuthorizingRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/main/java/com/wondersgroup/springbootshirodemo/shiro/MyUsernameToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/main/java/com/wondersgroup/springbootshirodemo/shiro/RedisCacheManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/main/java/com/wondersgroup/springbootshirodemo/shiro/RedisObjectSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/main/java/com/wondersgroup/springbootshirodemo/shiro/ShiroCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/main/java/com/wondersgroup/springbootshirodemo/shiro/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/main/java/com/wondersgroup/springbootshirodemo/utils/CommonHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/main/java/com/wondersgroup/springbootshirodemo/utils/DESUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/main/java/com/wondersgroup/springbootshirodemo/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/main/java/com/wondersgroup/springbootshirodemo/utils/IdGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/main/java/com/wondersgroup/springbootshirodemo/utils/TokenGenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/main/resources/templates/common/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/main/resources/templates/common/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootshirodemo/src/test/java/com/wondersgroup/springbootshirodemo/SpringbootshirodemoApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_14.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootamqpdemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootamqpdemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootamqpdemo/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootamqpdemo/target/classes/com/wondersgroup/springbootamqpdemo/SpringbootamqpdemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/springbootamqpdemo/target/classes/com/wondersgroup/springbootamqpdemo/SpringbootamqpdemoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootamqpdemo/target/classes/com/wondersgroup/springbootamqpdemo/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/springbootamqpdemo/target/classes/com/wondersgroup/springbootamqpdemo/model/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootamqpdemo/target/classes/com/wondersgroup/springbootamqpdemo/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springbootamqpdemo/target/classes/com/wondersgroup/springbootamqpdemo/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootamqpdemo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootamqpdemo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springbootamqpdemo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootamqpdemo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springbootamqpdemo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootamqpdemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springbootamqpdemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootamqpdemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springbootamqpdemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootamqpdemo/target/springbootamqpdemo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootamqpdemo/target/springbootamqpdemo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootamqpdemo/target/surefire-reports/2020-08-31T22-41-34_610-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootamqpdemo/target/surefire-reports/TEST-com.wondersgroup.springbootamqpdemo.SpringbootamqpdemoApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootamqpdemo/target/surefire-reports/com.wondersgroup.springbootamqpdemo.SpringbootamqpdemoApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootcachedemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootcachedemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootcachedemo/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootcachedemo/target/classes/com/wondersgroup/springbootcachedemo/SpringbootcachedemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootcachedemo/target/classes/com/wondersgroup/springbootcachedemo/controller/ProductCategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootcachedemo/target/classes/com/wondersgroup/springbootcachedemo/mapper/ProductCategoryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootcachedemo/target/classes/com/wondersgroup/springbootcachedemo/model/ProductCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootcachedemo/target/classes/com/wondersgroup/springbootcachedemo/service/ProductCategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootcachedemo/target/classes/sell.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootcachedemo/target/classes/static/spring cache自动配置类1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootcachedemo/target/classes/static/spring cache自动配置类2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootcachedemo/target/classes/static/spring cache自动配置类3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootcachedemo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootcachedemo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootcachedemo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootcachedemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootcachedemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootcachedemo/target/springbootcachedemo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootcachedemo/target/springbootcachedemo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootcachedemo/target/test-classes/com/wondersgroup/springbootcachedemo/SpringbootcachedemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootconfigdemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootconfigdemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootconfigdemo/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootconfigdemo/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootconfigdemo/target/classes/com/wondersgroup/springbootconfigdemo/SpringbootconfigdemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootconfigdemo/target/classes/com/wondersgroup/springbootconfigdemo/model/InitInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootconfigdemo/target/classes/com/wondersgroup/springbootconfigdemo/model/Version.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootconfigdemo/target/classes/config/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootconfigdemo/target/classes/config/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootconfigdemo/target/classes/config/initinfo-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootconfigdemo/target/classes/config/initinfo-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootconfigdemo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootconfigdemo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootconfigdemo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootconfigdemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootconfigdemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootconfigdemo/target/springbootconfigdemo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootconfigdemo/target/springbootconfigdemo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootconfigdemo/target/test-classes/com/wondersgroup/springbootconfigdemo/SpringbootconfigdemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootdruiddemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootdruiddemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootdruiddemo/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootdruiddemo/target/classes/com/wondersgroup/springbootdruiddemo/SpringbootdruiddemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootdruiddemo/target/classes/com/wondersgroup/springbootdruiddemo/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootdruiddemo/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootdruiddemo/target/classes/static/sell.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootdruiddemo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootdruiddemo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootdruiddemo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootdruiddemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootdruiddemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootdruiddemo/target/springbootdruiddemo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootdruiddemo/target/springbootdruiddemo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootdruiddemo/target/surefire-reports/TEST-com.wondersgroup.springbootdruiddemo.SpringbootdruiddemoApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootdruiddemo/target/surefire-reports/com.wondersgroup.springbootdruiddemo.SpringbootdruiddemoApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootdruiddemo/target/test-classes/com/wondersgroup/springbootdruiddemo/SpringbootdruiddemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootelasticsearchdemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootelasticsearchdemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootelasticsearchdemo/springbootelasticsearchdemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootelasticsearchdemo/springbootelasticsearchdemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootelasticsearchdemo/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootelasticsearchdemo/target/classes/com/wondersgroup/springbootelasticsearchdemo/SpringbootelasticsearchdemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootelasticsearchdemo/target/classes/com/wondersgroup/springbootelasticsearchdemo/esrepository/BookRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootelasticsearchdemo/target/classes/com/wondersgroup/springbootelasticsearchdemo/model/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootelasticsearchdemo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootelasticsearchdemo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootelasticsearchdemo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootelasticsearchdemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootelasticsearchdemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootelasticsearchdemo/target/springbootelasticsearchdemo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootelasticsearchdemo/target/springbootelasticsearchdemo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootelasticsearchdemo/target/test-classes/com/wondersgroup/springbootelasticsearchdemo/SpringbootelasticsearchdemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbooti18ndemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springbooti18ndemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbooti18ndemo/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbooti18ndemo/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbooti18ndemo/target/classes/com/wondersgroup/springbooti18ndemo/Springbooti18ndemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbooti18ndemo/target/classes/com/wondersgroup/springbooti18ndemo/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbooti18ndemo/target/classes/i18n/login.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbooti18ndemo/target/classes/i18n/login_en_US.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbooti18ndemo/target/classes/i18n/login_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbooti18ndemo/target/classes/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbooti18ndemo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbooti18ndemo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbooti18ndemo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbooti18ndemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbooti18ndemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbooti18ndemo/target/springbooti18ndemo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbooti18ndemo/target/springbooti18ndemo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbooti18ndemo/target/test-classes/com/wondersgroup/springbooti18ndemo/Springbooti18ndemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjdbcdemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootjdbcdemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjdbcdemo/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjdbcdemo/target/classes/com/wondersgroup/springbootjdbcdemo/SpringbootjdbcdemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjdbcdemo/target/classes/static/sell.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjdbcdemo/target/classes/static/springbootjdbc1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjdbcdemo/target/classes/static/springbootjdbc2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjdbcdemo/target/classes/static/springbootjdbc3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjdbcdemo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjdbcdemo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjdbcdemo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjdbcdemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjdbcdemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjdbcdemo/target/springbootjdbcdemo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjdbcdemo/target/springbootjdbcdemo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjdbcdemo/target/test-classes/com/wondersgroup/springbootjdbcdemo/SpringbootjdbcdemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjpademo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootjpademo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjpademo/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjpademo/target/classes/com/wondersgroup/springbootjpademo/SpringbootjpademoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjpademo/target/classes/com/wondersgroup/springbootjpademo/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjpademo/target/classes/com/wondersgroup/springbootjpademo/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjpademo/target/classes/com/wondersgroup/springbootjpademo/repository/UserRepositoty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjpademo/target/classes/static/jpatest01.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjpademo/target/classes/static/springdatajpa1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjpademo/target/classes/static/springdatajpa2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjpademo/target/classes/static/springdatajpa3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjpademo/target/classes/static/springdatajpa4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjpademo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjpademo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjpademo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjpademo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjpademo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjpademo/target/springbootjpademo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjpademo/target/springbootjpademo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootjpademo/target/test-classes/com/wondersgroup/springbootjpademo/SpringbootjpademoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootlogdemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootlogdemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootlogdemo/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootlogdemo/target/classes/com/wondersgroup/springbootlogdemo/SpringbootlogdemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootlogdemo/target/classes/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootlogdemo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootlogdemo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootlogdemo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootlogdemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootlogdemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootlogdemo/target/springbootlogdemo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootlogdemo/target/springbootlogdemo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootlogdemo/target/test-classes/com/wondersgroup/springbootlogdemo/SpringbootlogdemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootmybatisdemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootmybatisdemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootmybatisdemo/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootmybatisdemo/target/classes/com/wondersgroup/springbootmybatisdemo/SpringbootmybatisdemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootmybatisdemo/target/classes/com/wondersgroup/springbootmybatisdemo/dict/dao/ProductCategoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootmybatisdemo/target/classes/com/wondersgroup/springbootmybatisdemo/dict/entity/ProductCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootmybatisdemo/target/classes/com/wondersgroup/springbootmybatisdemo/dict/service/ProductCategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootmybatisdemo/target/classes/mapper/productcategory/ProductCategoryDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootmybatisdemo/target/classes/static/sell.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootmybatisdemo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootmybatisdemo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootmybatisdemo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootmybatisdemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootmybatisdemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootmybatisdemo/target/springbootmybatisdemo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootmybatisdemo/target/springbootmybatisdemo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootmybatisdemo/target/test-classes/com/wondersgroup/springbootmybatisdemo/SpringbootmybatisdemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootredisdemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootredisdemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootredisdemo/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootredisdemo/target/classes/com/wondersgroup/springbootredisdemo/SpringbootredisdemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootredisdemo/target/classes/com/wondersgroup/springbootredisdemo/model/ProductCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootredisdemo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootredisdemo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootredisdemo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootredisdemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootredisdemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootredisdemo/target/springbootredisdemo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootredisdemo/target/springbootredisdemo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootredisdemo/target/test-classes/com/wondersgroup/springbootredisdemo/SpringbootredisdemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootsecuritydemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/classes/com/wondersgroup/springbootsecuritydemo/SpringbootsecuritydemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/classes/com/wondersgroup/springbootsecuritydemo/controller/KungfuController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/classes/static/springsecurity原理01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/classes/static/springsecurity原理02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/classes/templates/pages/level1/1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/classes/templates/pages/level1/2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/classes/templates/pages/level1/3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/classes/templates/pages/level2/1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/classes/templates/pages/level2/2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/classes/templates/pages/level2/3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/classes/templates/pages/level3/1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/classes/templates/pages/level3/2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/classes/templates/pages/level3/3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/classes/templates/pages/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/classes/templates/welcome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/springbootsecuritydemo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/springbootsecuritydemo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootsecuritydemo/target/test-classes/com/wondersgroup/springbootsecuritydemo/SpringbootsecuritydemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboottaskdemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboottaskdemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboottaskdemo/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboottaskdemo/target/classes/com/wondersgroup/springboottaskdemo/SpringboottaskdemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboottaskdemo/target/classes/com/wondersgroup/springboottaskdemo/controller/AysncController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboottaskdemo/target/classes/com/wondersgroup/springboottaskdemo/service/AsyncService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboottaskdemo/target/classes/com/wondersgroup/springboottaskdemo/service/ScheduledService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboottaskdemo/target/classes/templates/EmailTemplate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboottaskdemo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboottaskdemo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboottaskdemo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboottaskdemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboottaskdemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboottaskdemo/target/springboottaskdemo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboottaskdemo/target/springboottaskdemo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboottaskdemo/target/test-classes/com/wondersgroup/springboottaskdemo/SpringboottaskdemoApplicationTests.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,21 +323,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springbooti18ndemo/src/main/resources/templates" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="last_opened_file_path" value="E:/gitDownload/wondersgroup-healthcloud-fyhealth-auth" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wondersgroup.springbootshirodemo.utils" />
+      <recent name="com.wondersgroup.springbootshirodemo.shiro" />
+      <recent name="com.wondersgroup.springbootshirodemo.model" />
       <recent name="com.wondersgroup.springbootmybatisdemo.dict.service" />
       <recent name="com.wondersgroup.springbootmybatisdemo.dict.entity" />
-      <recent name="com.wondersgroup.springbootmybatisdemo.dict.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\springbootdemo\springbooti18ndemo\src\main\resources\templates" />
-      <recent name="D:\springbootdemo\springbootmybatisdemo\src\main\resources\static" />
-      <recent name="D:\springbootdemo\springbootmybatisdemo\src\main\resources\mapper\productcategory" />
-      <recent name="D:\springbootdemo\springbootdruiddemo\src\main\resources" />
-      <recent name="D:\springbootdemo\springbootdruiddemo\src\main\resources\static" />
+      <recent name="D:\springbootdemo\springbootshirodemo\src\main\java\com\wondersgroup\springbootshirodemo\utils" />
+      <recent name="D:\springbootdemo\springbootshirodemo\src\main\java\com\wondersgroup\springbootshirodemo\shiro" />
+      <recent name="D:\springbootdemo\springbootshirodemo\src\main\java\com\wondersgroup\springbootshirodemo" />
+      <recent name="D:\springbootdemo\springbootshirodemo\src\main\java\com\wondersgroup\springbootshirodemo\model" />
+      <recent name="D:\springbootdemo\springbootshirodemo\src\main\resources\templates\common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -105,7 +357,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Springbooti18ndemoApplication">
+  <component name="RunManager" selected="Application.SpringbootshirodemoApplication">
     <configuration name="SpringbootdruiddemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wondersgroup.springbootdruiddemo.SpringbootdruiddemoApplication" />
       <module name="springbootdruiddemo" />
@@ -132,6 +384,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringbootshirodemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wondersgroup.springbootshirodemo.SpringbootshirodemoApplication" />
+      <module name="springbootshirodemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wondersgroup.springbootshirodemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringbootdruiddemoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springbootdruiddemo" />
       <extension name="coverage">
@@ -143,22 +408,6 @@
       <option name="PACKAGE_NAME" value="com.wondersgroup.springbootdruiddemo" />
       <option name="MAIN_CLASS_NAME" value="com.wondersgroup.springbootdruiddemo.SpringbootdruiddemoApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringbootjdbcdemoApplicationTests.Test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springbootjdbcdemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wondersgroup.springbootjdbcdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wondersgroup.springbootjdbcdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.wondersgroup.springbootjdbcdemo.SpringbootjdbcdemoApplicationTests" />
-      <option name="METHOD_NAME" value="Test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -271,6 +520,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringbootshirodemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springbootshirodemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wondersgroup.springbootshirodemo.SpringbootshirodemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringboottaskdemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboottaskdemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wondersgroup.springboottaskdemo.SpringboottaskdemoApplication" />
@@ -280,11 +536,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpringbootshirodemoApplication" />
         <item itemvalue="Application.Springbooti18ndemoApplication" />
         <item itemvalue="JUnit.SpringbootmybatisdemoApplicationTests.contextLoads" />
         <item itemvalue="JUnit.SpringbootdruiddemoApplicationTests.contextLoads" />
         <item itemvalue="Application.SpringbootdruiddemoApplication" />
-        <item itemvalue="JUnit.SpringbootjdbcdemoApplicationTests.Test01" />
       </list>
     </recent_temporary>
   </component>
@@ -305,6 +561,7 @@
       <workItem from="1599118035537" duration="1528000" />
       <workItem from="1599125989250" duration="48000" />
       <workItem from="1599185891441" duration="8336000" />
+      <workItem from="1599469800991" duration="27373000" />
     </task>
     <servers />
   </component>
@@ -326,5 +583,31 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springbootshirodemo/src/main/java/com/wondersgroup/springbootshirodemo/controller/LoginController.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springbootshirodemo/src/main/java/com/wondersgroup/springbootshirodemo/controller/LoginController.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springbootshirodemo/src/main/java/com/wondersgroup/springbootshirodemo/shiro/CustomAuthorizingRealm.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springbootshirodemo/src/main/java/com/wondersgroup/springbootshirodemo/shiro/CustomAuthorizingRealm.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

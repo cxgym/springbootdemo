@@ -1,0 +1,13 @@
+shiro:
+  expireIn: 1800
+  sessionTimeout: 1800000
+  cookieTimeout: 2592000
+  anonUrl: /css/**,/js/**,/libs/**,/main/**,/monitor/**,/actuator/health,/login,/hypdisease/addForm,/outcomeApi/**,/reportcard/hypertensionFrom,/reportcard/diabetesForm,/followTaskNLogin/**,/intelli/**,/area/**,/cache/**,/manageInfo/**,/committeeApi/**,/interFollow/**,/interPerson/**,/effectiveCheck/**,/500
+  loginUrl: /login
+  successUrl: /index
+  logoutUrl: /logout
+  unauthorizedUrl: /404
+  sessionIdName: session.id
+
+#cas\u5916\u7F51\u8BBF\u95EE\u5730\u5740
+cas_login_url: 'http://127.0.0.1:8080/login'
